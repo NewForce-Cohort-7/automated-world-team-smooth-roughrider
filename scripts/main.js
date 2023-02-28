@@ -25,18 +25,16 @@ const people = {
         {
             imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Manu_Ginobili_Spurs-Magic011_%28cropped%29.jpg/220px-Manu_Ginobili_Spurs-Magic011_%28cropped%29.jpg",
             name: "Manu Ginobili",
-            fact: "Manu Ginobili is a former NBA basketball star, playing his entire career with the San Antonio Spurs. Ginobili was born in Bahia Blanca, Argentina.",
 
         },
         {
             imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg",
             name: "Lionel Messi",
-            fact: "International soccer star Lionel Messi was born in Rosario, Santa Fe, Argentina. Messi has played soccer at the professional level since 2003 at the age of 16! Messi is still active playing for the Paris Saint-Germain of Ligue 1 in France as well as being a capitan of the Argentina national team."
         },
         {
             imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Evita_%28cropped%29.JPG/220px-Evita_%28cropped%29.JPG",
             name: "Eva 'Evita' Peron",
-            fact: "Eva Peron (1919-1952) was a former First Lady of Argetina (Juan Peron). She was a politician, activist, and philanthropist. She launched the first large-scale female political party in Argentina known as the 'Female Peronist Party' in 1949, 3 years before her death at the age of 33."
+            
         },
     ]
 }

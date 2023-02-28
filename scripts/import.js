@@ -1,3 +1,4 @@
+import { siteList } from "./landmarkList.js";
 import { getLandmarks } from "./main.js";
 
 const allLandmarks = getLandmarks()
@@ -21,3 +22,7 @@ const allCities = getCities()
 for (const singleCity of allCities) {
     console.log(singleCity)
 }
+
+const parentHTMLElement = document.querySelector(".card")
+
+parentHTMLElement.innerHTML = siteList()
