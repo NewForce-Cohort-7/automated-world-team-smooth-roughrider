@@ -134,8 +134,9 @@ do not edit */
 /* do not edit */
 .card-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-flow: wrap;
+    column-gap: 20px;
   }
 
 /* card dimensions */
