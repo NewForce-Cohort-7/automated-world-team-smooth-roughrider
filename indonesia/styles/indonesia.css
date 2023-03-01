@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Comic Sans MS'
 }
 
 *, *::after, *::before {
@@ -16,9 +17,9 @@
 
 /* removes bullet points on li's */
 ul {
-   margin: 0;
-   padding: 0;
-   list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* ==================== 
@@ -26,38 +27,38 @@ ul {
 ======================= */
 /* sets header to flexbox */
 .header {
-	 padding-top: .5rem;
-	 padding-bottom: .5rem;
-	 background-color: red;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	background: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
-	 margin-top: 0.313rem;
-   display: flex;
+	margin-top: 0.313rem;
+  display: flex;
 }
 
 /* page logo */
 .logo {
-	 margin: 0;
-	 font-size: 1.45rem;
+	margin: 0;
+	font-size: 1.45rem;
 }
 
 /* this transforms the logo link and navbar links into blocks for positioning */
 .logo a,
 .navbar a {
-	 padding: 0.625rem 0.938rem;
-	 text-align: center;
-	 display: block;
+	padding: 0.625rem 0.938rem;
+	text-align: center;
+	display: block;
 }
 
 /* navbar links */
 .navbar a {
-	 color: #34495e;
-	 font-size: .99rem;
+	color: #34495e;
+	font-size: .99rem;
 }
 
 /* ==================== 
@@ -73,7 +74,6 @@ ul {
     align-items: center;
     width: 100%;
     padding: 0;
-
 }
 
 /* hero h1 */
@@ -112,12 +112,14 @@ don't recommend touching this */
 
 .intro-title {
     font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .intro-title,
 .intro-text {
     text-align: center;
 }
+
 
 /* ==================== 
          Cards 
@@ -140,6 +142,14 @@ do not edit */
   }
 
 /* card dimensions */
+.card-section-heading {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+
+}
+
+/* do not edit the width or margin */
 .card {
     width: 20%;
     background: #fff;
@@ -149,14 +159,15 @@ do not edit */
 
 /* location image */
 .card-img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: block;
   }
 
 /* card title */
 .card-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 22px;
     margin-bottom: 1rem;
   }
 
@@ -178,7 +189,64 @@ do not edit */
     padding: 10px 5px;
     transition: 0.3s;
   }
-  
+
+
+/* ==================== 
+CELEBRITY Cards 
+!! DO NOT EDIT THE DIMENSIONS !!
+  YOU CAN EDIT THE COLORS
+======================= */
+/* houses the card
+do not edit */
+.celeb-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+/* do not edit */
+.celeb-row {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    column-gap: 20px;
+  }
+
+/* card dimensions */
+.celeb-section-heading {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+
+}
+
+/* do not edit the width or margin */
+.celeb {
+    width: 20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+
+/* location image */
+.celeb-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+/* card title */
+.celeb-title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+
+/* inside of card */
+.celeb-body {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
 
 /* ==================== 
 CARD MEDIA QUERIES 
@@ -186,17 +254,17 @@ CARD MEDIA QUERIES
 ======================= */
 
 @media screen and (max-width: 1000px) {
-    .card {
-      width: 40%;
-    }
+  .card, .celeb {
+    width: 30%;
   }
-  
-  @media screen and (max-width: 620px) {
-    .card-container {
-      width: 100%;
-    }
-  
-    .card {
-      width: 80%;
-    }
+}
+
+@media screen and (max-width: 620px) {
+  .card-container, .celeb-container {
+    width: 100%;
   }
+
+  .card, .celeb {
+    width: 80%;
+  }
+}
