@@ -64,6 +64,7 @@ const intro = {
     argentina: [
         {
         imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1024px-Flag_of_Argentina.svg.png",
+        name: "Argentina",
         fact: "Officially known as the Argentine Republic, Argentina is the second-largest country in South America and the eighth-largest country in the world.",
         },
     ]
