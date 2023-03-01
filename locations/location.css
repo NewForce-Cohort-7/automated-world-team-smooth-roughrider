@@ -3,247 +3,250 @@
 ======================= */
 /* css reset - do not delete */
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Sans MS'
 }
 
 *, *::after, *::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 
 /* removes bullet points on li's */
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+margin: 0;
+padding: 0;
+list-style: none;
 }
 
 /* ==================== 
-  Header/Navbar CSS 
+Header/Navbar CSS 
 ======================= */
 /* sets header to flexbox */
 .header {
-	padding-top: .5rem;
-	padding-bottom: .5rem;
-	background: red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+padding-top: .5rem;
+padding-bottom: .5rem;
+background: red;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
 }
 
 .navbar {
-	margin-top: 0.313rem;
+margin-top: 0.313rem;
+display: flex;
 }
 
 /* page logo */
 .logo {
-	margin: 0;
-	font-size: 1.45rem;
+margin: 0;
+font-size: 1.45rem;
 }
 
 /* this transforms the logo link and navbar links into blocks for positioning */
 .logo a,
 .navbar a {
-	padding: 0.625rem 0.938rem;
-	text-align: center;
-	display: block;
+padding: 0.625rem 0.938rem;
+text-align: center;
+display: block;
 }
 
 /* navbar links */
 .navbar a {
-	color: #34495e;
-	font-size: .99rem;
+color: #34495e;
+font-size: .99rem;
 }
 
 /* ==================== 
-  Hero Image 
+Hero Image 
 ======================= */
 /* main hero container - flex centers all of the text within
 !! don't edit this !! */
 .hero {
-    height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 0;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
 }
 
 /* hero h1 */
 .hero-title {
-    font-size: 3rem; 
+  font-size: 3rem; 
 }
 
 /* space between title & subtext
 hero p */
 .hero-subtext {
-    margin-top: 0.1rem;
+  margin-top: 0.1rem;
 }
 
 /* title and subtext color - you can change the font/text styles/colors here */
 .hero-title,
 .hero-subtext {
-    color: #fff;
-    text-align: center; /* don't remove this */
+  color: #fff;
+  text-align: center; /* don't remove this */
 }
 
 /* ==================== 
-  Page Intro
+Page Intro
 ======================= */
 /* sets intro to flex for text positioning 
 don't recommend touching this */
 .introduction {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-content {
-    padding: 3rem 1.5rem; /* don't remove/adjust this */
+  padding: 3rem 1.5rem; /* don't remove/adjust this */
 }
 
 .intro-title {
-    font-size: 2rem;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
 
 .intro-title,
 .intro-text {
-    text-align: center;
+  text-align: center;
 }
 
 
 /* ==================== 
-         Cards 
+       Cards 
 !! DO NOT EDIT THE DIMENSIONS !!
-  YOU CAN EDIT THE COLORS
+YOU CAN EDIT THE COLORS
 ======================= */
 /* houses the card
 do not edit */
 .card-container {
-    width: 90%;
-    margin: 0 auto;
-  }
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* do not edit */
 .card-row {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    column-gap: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  column-gap: 20px;
+}
 
 /* card dimensions */
 .card-section-heading {
-    text-align: center;
-    font-size: 1.25rem;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
 
 }
 
 /* do not edit the width or margin */
 .card {
-    width: 20%;
-    background: #fff;
-    border: 1px solid #ccc;
-    margin-bottom: 50px;
-  }
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
 
 /* location image */
 .card-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* card title */
 .card-title {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 1rem;
-  }
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
 
 /* inside of card */
 .card-body {
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
-  }
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
 
 /* card button */
 .card-body .btn {
-    display: block;
-    color: #fff;
-    text-align: center;
-    background: red;
-    text-decoration: none;
-    margin-top: 30px;
-    padding: 10px 5px;
-    transition: 0.3s;
-  }
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: red;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 10px 5px;
+  transition: 0.3s;
+}
 
 
 /* ==================== 
 CELEBRITY Cards 
 !! DO NOT EDIT THE DIMENSIONS !!
-  YOU CAN EDIT THE COLORS
+YOU CAN EDIT THE COLORS
 ======================= */
 /* houses the card
 do not edit */
 .celeb-container {
-    width: 90%;
-    margin: 0 auto;
-  }
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* do not edit */
 .celeb-row {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    column-gap: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  column-gap: 20px;
+}
 
 /* card dimensions */
 .celeb-section-heading {
-    text-align: center;
-    font-size: 1.25rem;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
 
 }
 
 /* do not edit the width or margin */
 .celeb {
-    width: 20%;
-    background: #fff;
-    border: 1px solid #ccc;
-    margin-bottom: 50px;
-  }
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
 
 /* location image */
 .celeb-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* card title */
 .celeb-title {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 1rem;
-  }
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
 
 /* inside of card */
 .celeb-body {
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
-  }
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
 
 /* ==================== 
 CARD MEDIA QUERIES 
@@ -251,17 +254,17 @@ CARD MEDIA QUERIES
 ======================= */
 
 @media screen and (max-width: 1000px) {
-  .card, .celeb {
-    width: 30%;
-  }
+.card, .celeb {
+  width: 30%;
+}
 }
 
 @media screen and (max-width: 620px) {
-  .card-container, .celeb-container {
-    width: 100%;
-  }
+.card-container, .celeb-container {
+  width: 100%;
+}
 
-  .card, .celeb {
-    width: 80%;
-  }
+.card, .celeb {
+  width: 80%;
+}
 }
