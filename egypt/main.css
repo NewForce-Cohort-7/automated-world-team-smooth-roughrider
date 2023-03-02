@@ -67,7 +67,7 @@ ul {
 !! don't edit this !! */
 .hero {
     height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://pm1.narvii.com/6669/e5ba15ab0d55149156a572fc77b90866a4d65d32_hq.jpg') center center / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
