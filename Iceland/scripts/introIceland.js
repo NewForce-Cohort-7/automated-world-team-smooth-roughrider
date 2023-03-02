@@ -1,9 +1,10 @@
 import { icelandIntro } from "./iceland.js";
 
 export const introList = () => {
-    const intro = icelandIntro()
+    let intro = icelandIntro()
 
-    let htmlString = ''
+    let htmlString = '<section class = "intro-cities"></section>'
+
 
     for (const copyOfSingleIntroObject of intro) {
         htmlString += `
@@ -14,6 +15,4 @@ export const introList = () => {
     return htmlString
 }
 
-const intro = icelandIntro()
 
-    return htmlString

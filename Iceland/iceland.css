@@ -5,7 +5,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Comic Sans MS'
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('https://www.cnet.com/a/img/resize/6fd43ff95962a54cb9e94e8b0f36439f25501e89/hub/2023/02/28/266a4f09-6b1b-4576-a6df-5d3e486a28bf/aurora-iceland.jpg?auto=webp&fit=crop&height=675&width=1200');
 }
 
 *, *::after, *::before {
@@ -13,6 +14,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 
 
 /* removes bullet points on li's */
@@ -29,7 +31,7 @@ Header/Navbar CSS
 .header {
 padding-top: .5rem;
 padding-bottom: .5rem;
-background: red;
+background: url('https://cdn.mos.cms.futurecdn.net/8FXSYkHRGGLNhqKaWGfNLQ-970-80.jpg.webp');
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -78,17 +80,19 @@ Hero Image
 
 /* hero h1 */
 .hero-title {
-  font-size: 3rem; 
+  font-size: 5rem; 
+  font-variant: small-caps;
+  color: #4fb3ec;
 }
 
 /* space between title & subtext
 hero p */
 .hero-subtext {
-  margin-top: 0.1rem;
+  font-size: 18px;
 }
 
 /* title and subtext color - you can change the font/text styles/colors here */
-.hero-title,
+
 .hero-subtext {
   color: #fff;
   text-align: center; /* don't remove this */
@@ -104,6 +108,7 @@ don't recommend touching this */
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .intro-content {
@@ -115,17 +120,71 @@ don't recommend touching this */
   margin-bottom: 10px;
 }
 
-.intro-title,
 .intro-text {
   text-align: center;
 }
 
-
 /* ==================== 
        Cards 
 !! DO NOT EDIT THE DIMENSIONS !!
-YOU CAN EDIT THE COLORS
-======================= */
+YOU CAN EDIT THE COLORS*/
+
+.city-container {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  column-gap: 20px;
+  
+}
+
+
+/* card dimensions */
+.city-section-heading {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+
+}
+
+/* do not edit the width or margin */
+.city {
+  width: 30%;
+  background: rgb(199, 199, 248);
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+/* location image */
+.city-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* card title */
+.city-title {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+
+/* inside of card */
+.city-body {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.city-fact {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+
+
 /* houses the card
 do not edit */
 .card-container {
@@ -152,7 +211,7 @@ do not edit */
 /* do not edit the width or margin */
 .card {
   width: 20%;
-  background: #fff;
+  background: #a8e4f7;
   border: 1px solid #ccc;
   margin-bottom: 50px;
 }
@@ -175,9 +234,13 @@ do not edit */
 .card-body {
   padding: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
-
+.card-fact {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
 /* card button */
 .card-body .btn {
   display: block;
@@ -222,7 +285,7 @@ do not edit */
 /* do not edit the width or margin */
 .celeb {
   width: 20%;
-  background: #fff;
+  background: #83c3ff;
   border: 1px solid #ccc;
   margin-bottom: 50px;
 }
@@ -245,7 +308,14 @@ do not edit */
 .celeb-body {
   padding: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
+
+}
+
+.celeb-fact {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
 }
 
 /* ==================== 

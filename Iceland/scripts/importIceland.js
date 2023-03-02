@@ -1,16 +1,16 @@
-//intro
 
-import { icelandIntro } from "./iceland.js";
+import {icelandLandmarks} from "./iceland.js";
+import { icelandCelebrities } from "./iceland.js";
+import { icelandCities } from "./iceland.js";
+import {celebsList} from "./icelandCelebs.js";
+import {landmarksList} from "./landmarksIceland.js";
+import {cityList} from "./citiesIceland.js";
 
-const allIntro = icelandIntro()
 
-for (const singleIntro of allIntro) {
-    console.log(singleIntro)
-}
 
 
 //landmarks
-import { icelandLandmarks } from "./iceland.js";
+
 
 const allLandmarks = icelandLandmarks()
 
@@ -20,7 +20,6 @@ for (const singleLandmark of allLandmarks) {
 
 //celebrities
 
-import { icelandCelebrities } from "./iceland.js";
 
 const allCelebs = icelandCelebrities()
 
@@ -30,28 +29,24 @@ for (const singleCeleb of allCelebs) {
 
 
 //cities
-import { icelandCities } from "./iceland";
 
 const allCities = icelandCities()
 
 for (const singleCity of allCities) {
-    console.log(singleCity)
+   console.log(singleCity)
 }
 
 
 //HTML 
-const parentHTMLElement = document.querySelector(".card")
 
-parentHTMLElement.innerHTML = icelandIntro()
+const parentHTMLElementLandmarks = document.querySelector(".card-container")
 
-const parentHTMLElement = document.querySelector(".card")
+parentHTMLElementLandmarks.innerHTML = landmarksList()
 
-parentHTMLElement.innerHTML = icelandLandmarks()
+const parentHTMLElementCities = document.querySelector(".city-container")
 
-const parentHTMLElement = document.querySelector(".card")
+parentHTMLElementCities.innerHTML = cityList()
 
-parentHTMLElement.innerHTML = icelandCities()
+const parentHTMLElementCelebs = document.querySelector(".celeb-container")
 
-const parentHTMLElement = document.querySelector(".card")
-
-parentHTMLElement.innerHTML = icelandCelebrities()
+parentHTMLElementCelebs.innerHTML = celebsList()
