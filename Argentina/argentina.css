@@ -70,7 +70,6 @@ Hero Image
 /* main hero container - flex centers all of the text within
 !! don't edit this !! */
 .hero {
-<<<<<<< HEAD:Argentina/argentina.css
     height: 50vh;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://www.shiftcities.org/sites/default/files/styles/16_9_extra_large/public/2021-12/argentina%20%284%29%20small.png?itok=rjOvcwNB') center center / cover no-repeat;
     display: flex;
@@ -79,15 +78,6 @@ Hero Image
     width: 100%;
     padding: 0;
     border: 3px solid black;
-=======
-  height: 50vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 0;
->>>>>>> main:locations/location.css
 }
 
 /* hero h1 */
@@ -104,13 +94,8 @@ hero p */
 /* title and subtext color - you can change the font/text styles/colors here */
 .hero-title,
 .hero-subtext {
-<<<<<<< HEAD:Argentina/argentina.css
     color: gold;
     text-align: center; /* don't remove this */
-=======
-  color: #fff;
-  text-align: center; /* don't remove this */
->>>>>>> main:locations/location.css
 }
 
 /* ==================== 
@@ -170,19 +155,11 @@ do not edit */
 
 /* do not edit the width or margin */
 .card {
-<<<<<<< HEAD:Argentina/argentina.css
     width: 20%;
     background: orangered;
     border: 2px dotted black;
     margin-bottom: 50px;
   }
-=======
-  width: 20%;
-  background: #fff;
-  border: 1px solid #ccc;
-  margin-bottom: 50px;
-}
->>>>>>> main:locations/location.css
 
 /* location image */
 .card-img {
@@ -248,19 +225,11 @@ do not edit */
 
 /* do not edit the width or margin */
 .celeb {
-<<<<<<< HEAD:Argentina/argentina.css
     width: 20%;
     background: yellow;
     border: 2px dotted black;
     margin-bottom: 50px;
   }
-=======
-  width: 20%;
-  background: #fff;
-  border: 1px solid #ccc;
-  margin-bottom: 50px;
-}
->>>>>>> main:locations/location.css
 
 /* location image */
 .celeb-img {
