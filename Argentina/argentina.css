@@ -14,6 +14,9 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: limegreen;
+}
 
 /* removes bullet points on li's */
 ul {
@@ -27,13 +30,13 @@ Header/Navbar CSS
 ======================= */
 /* sets header to flexbox */
 .header {
-padding-top: .5rem;
-padding-bottom: .5rem;
-background: red;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	background: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar {
@@ -67,13 +70,14 @@ Hero Image
 /* main hero container - flex centers all of the text within
 !! don't edit this !! */
 .hero {
-  height: 50vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 0;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://www.shiftcities.org/sites/default/files/styles/16_9_extra_large/public/2021-12/argentina%20%284%29%20small.png?itok=rjOvcwNB') center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    border: 3px solid black;
 }
 
 /* hero h1 */
@@ -90,8 +94,8 @@ hero p */
 /* title and subtext color - you can change the font/text styles/colors here */
 .hero-title,
 .hero-subtext {
-  color: #fff;
-  text-align: center; /* don't remove this */
+    color: gold;
+    text-align: center; /* don't remove this */
 }
 
 /* ==================== 
@@ -151,11 +155,11 @@ do not edit */
 
 /* do not edit the width or margin */
 .card {
-  width: 20%;
-  background: #fff;
-  border: 1px solid #ccc;
-  margin-bottom: 50px;
-}
+    width: 20%;
+    background: orangered;
+    border: 2px dotted black;
+    margin-bottom: 50px;
+  }
 
 /* location image */
 .card-img {
@@ -221,11 +225,11 @@ do not edit */
 
 /* do not edit the width or margin */
 .celeb {
-  width: 20%;
-  background: #fff;
-  border: 1px solid #ccc;
-  margin-bottom: 50px;
-}
+    width: 20%;
+    background: yellow;
+    border: 2px dotted black;
+    margin-bottom: 50px;
+  }
 
 /* location image */
 .celeb-img {
@@ -267,4 +271,11 @@ CARD MEDIA QUERIES
 .card, .celeb {
   width: 80%;
 }
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: darkgoldenrod;
 }
