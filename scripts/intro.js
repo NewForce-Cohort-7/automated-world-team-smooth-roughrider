@@ -12,6 +12,7 @@ export const introPrompt = () => {
         <div class="card-body">
         <h2 class="card-title"> ${singleArgentina.name}</div>
         <p> ${singleArgentina.fact}</p>
+        <a href="./Argentina/argentina.html" class="btn">Read more</a>
         </div>`
     }
 

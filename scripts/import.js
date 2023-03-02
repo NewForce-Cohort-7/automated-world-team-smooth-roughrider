@@ -1,12 +1,6 @@
-import { siteList } from "./landmarkList.js";
+
 import { introPrompt } from "./intro.js";
-import { getLandmarks } from "./main.js";
 
-const allLandmarks = getLandmarks()
-
-for (const singleLandmark of allLandmarks) {
-    console.log(singleLandmark)
-}
 
 import { getCelebs } from "./main.js";
 
@@ -25,6 +19,7 @@ for (const singleCity of allCities) {
 }
 
 import { getIntro } from "./main.js";
+
 const allIntro = getIntro()
 for (const singleIntro of allIntro) {
     console.log(singleIntro)
@@ -37,4 +32,3 @@ for (const singleIntro of allIntro) {
 const parentHTMLElement2 = document.querySelector(".card")
 
 parentHTMLElement2.innerHTML = introPrompt()
-

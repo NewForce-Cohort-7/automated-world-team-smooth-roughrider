@@ -25,15 +25,18 @@ const people = {
         {
             imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Manu_Ginobili_Spurs-Magic011_%28cropped%29.jpg/220px-Manu_Ginobili_Spurs-Magic011_%28cropped%29.jpg",
             name: "Manu Ginobili",
+            fact: "Manu Ginobili is a former NBA shooting guard who played for the San Antonio Spurs. Ginobili was a 4-time NBA Champion."
 
         },
         {
             imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg",
             name: "Lionel Messi",
+            fact: "Messi is an international soccer star, currently playing in France for Paris Saint-Germain F.C. in Ligue 1"
         },
         {
             imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Evita_%28cropped%29.JPG/220px-Evita_%28cropped%29.JPG",
             name: "Eva 'Evita' Peron",
+            fact: "Evita was a politcian, activist, and philanthropist."
             
         },
     ]
