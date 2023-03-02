@@ -1,4 +1,3 @@
-// chapter 9 - exporting 
 // import code 
 import {getLandmarks} from './landmarkDB.js'
 
@@ -12,13 +11,7 @@ for (let singleLandmark of allLandmarks) {
 import {LandmarkList} from './landmarkList.js'
 
 /*
-    What is the CSS selector for the element where you
-    want to display the fish?
-
-    (HTML container)
-
-    Use . for elements with a "class" attribute
-    Use # for elements with an "id" attribute
+    CSS SELECTOR
  */
 let parentHTMLElement = document.querySelector(".card-container")
 

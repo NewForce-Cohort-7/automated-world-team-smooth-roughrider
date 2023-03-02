@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Comic Sans MS'
+    font-family: 'Comic Sans MS';
 }
 
 *, *::after, *::before {
@@ -14,12 +14,50 @@
     box-sizing: border-box;
 }
 
-
 /* removes bullet points on li's */
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* INDONESIA SPECIFIC */
+body {
+  background-image: url('https://i.ibb.co/fxKPNkb/seamless-pattern-inflatable-pink-flamingo-swim-ring-summer-print-sticker-badge-fashion-patch-fabric.png');
+  overflow-x: hidden;
+  
+}
+
+.silly {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  background: white;
+}
+
+.city-info {
+  background: linear-gradient(90deg, rgba(228,255,0,1) 0%, rgba(236,0,227,1) 45%, rgba(0,232,255,1) 100%);
+  padding: 20px;
+  border: 5px solid orange;
+}
+
+.city-info p {
+  color: black;
+}
+
+.intro-text {
+  color: black;
+}
+
+.city-title {
+  font-size: 32px;
+  color: blueviolet;;
+  padding: 20px;
+  border-top: 5px dashed pink;
+}
+
+.grid {
+  padding: 40px;
 }
 
 /* ==================== 
@@ -29,11 +67,12 @@ ul {
 .header {
 	padding-top: .5rem;
 	padding-bottom: .5rem;
-	background: red;
+	background: linear-gradient(90deg, rgba(228,255,0,1) 0%, rgba(236,0,227,1) 45%, rgba(0,232,255,1) 100%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 10px dashed yellow;
 }
 
 .navbar {
@@ -68,7 +107,9 @@ ul {
 !! don't edit this !! */
 .hero {
     height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
+    background: linear-gradient(50deg, rgba(228,255,0,0.25) 0%, rgba(236,0,227,0.25) 45%, rgba(0,232,255,0.25)), url('https://i.ibb.co/L8cmTk9/aron-visuals-LSFu-PFE9v-KE-unsplash-Edited.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,19 +141,32 @@ hero p */
 /* sets intro to flex for text positioning 
 don't recommend touching this */
 .introduction {
-    padding: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, rgba(0,255,34,.5) 0%, rgba(0,28,236,.5) 45%, rgba(255,0,198,.5) 100%);
+    border-bottom: 10px dashed limegreen;
+    border-top: 10px solid blue;
 }
 
 .intro-content {
-    padding: 3rem 1.5rem; /* don't remove/adjust this */
+    padding: 2rem 1.5rem; /* don't remove/adjust this */
+    background: #fff;
+    text-align: center;
+    color: magenta;
+    border: 5px dotted blue;
+}
+
+.intro-content p {
+  padding: 10px;
 }
 
 .intro-title {
     font-size: 2rem;
     margin-bottom: 10px;
+    color: blueviolet;
+    background: white;
 }
 
 .intro-title,
@@ -146,14 +200,16 @@ do not edit */
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 10px;
+    color: orangered;
+    background: pink;
 
 }
 
 /* do not edit the width or margin */
 .card {
     width: 20%;
-    background: #fff;
-    border: 1px solid #ccc;
+    background: linear-gradient(90deg, rgba(0,255,34,.99) 0%, rgba(0,28,236,.90) 45%, rgba(255,0,198,.90) 100%);
+    border: 4px dotted pink;
     margin-bottom: 50px;
   }
 
@@ -169,6 +225,7 @@ do not edit */
     text-align: center;
     font-size: 22px;
     margin-bottom: 1rem;
+    color: whitesmoke;
   }
 
 /* inside of card */
@@ -176,6 +233,7 @@ do not edit */
     padding: 20px;
     text-align: center;
     font-size: 18px;
+    color: black;
   }
 
 /* card button */
@@ -216,14 +274,16 @@ do not edit */
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 10px;
+    color: hotpink;
+    background: lightskyblue;
 
 }
 
 /* do not edit the width or margin */
 .celeb {
     width: 20%;
-    background: #fff;
-    border: 1px solid #ccc;
+    background: linear-gradient(90deg, rgba(0,255,34,.75) 0%, rgba(0,28,236,.75) 45%, rgba(255,0,198,.75) 100%);
+    border: 4px dotted lawngreen;
     margin-bottom: 50px;
   }
 
@@ -239,6 +299,7 @@ do not edit */
     text-align: center;
     font-size: 22px;
     margin-bottom: 1rem;
+    color:whitesmoke;
   }
 
 /* inside of card */
@@ -246,6 +307,7 @@ do not edit */
     padding: 20px;
     text-align: center;
     font-size: 18px;
+    color: black;
   }
 
 /* ==================== 
