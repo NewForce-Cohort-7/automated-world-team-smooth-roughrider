@@ -1,0 +1,341 @@
+/* ==================== 
+ CSS Reset/Helpers 
+======================= */
+/* css reset - do not delete */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://www.cnet.com/a/img/resize/6fd43ff95962a54cb9e94e8b0f36439f25501e89/hub/2023/02/28/266a4f09-6b1b-4576-a6df-5d3e486a28bf/aurora-iceland.jpg?auto=webp&fit=crop&height=675&width=1200');
+  }
+  
+  *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /* removes bullet points on li's */
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  
+  /* ==================== 
+  Header/Navbar CSS 
+  ======================= */
+  /* sets header to flexbox */
+  .header {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  background: url('https://cdn.mos.cms.futurecdn.net/8FXSYkHRGGLNhqKaWGfNLQ-970-80.jpg.webp');
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .navbar {
+  margin-top: 0.313rem;
+  display: flex;
+  }
+  
+  /* page logo */
+  .logo {
+  margin: 0;
+  font-size: 1.45rem;
+  }
+  
+  /* this transforms the logo link and navbar links into blocks for positioning */
+  .logo a,
+  .navbar a {
+  padding: 0.625rem 0.938rem;
+  text-align: center;
+  display: block;
+  }
+  
+  /* navbar links */
+  .navbar a {
+  color: #34495e;
+  font-size: .99rem;
+  }
+  
+  /* ==================== 
+  Hero Image 
+  ======================= */
+  /* main hero container - flex centers all of the text within
+  !! don't edit this !! */
+  .hero {
+      height: 50vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://cdn.kimkim.com/files/a/maps/ece53dc33e400c9f2c29bc5e93fa7cb95fe47cef/big-344fc747cdeff7b2f199c2c9f9934a46.jpg') center center / cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+  }
+  
+  /* hero h1 */
+  .hero-title {
+    font-size: 5rem; 
+    font-variant: small-caps;
+    color: #4fb3ec;
+  }
+  
+  /* space between title & subtext
+  hero p */
+  .hero-subtext {
+    font-size: 18px;
+  }
+  
+  /* title and subtext color - you can change the font/text styles/colors here */
+  
+  .hero-subtext {
+    color: #fff;
+    text-align: center; /* don't remove this */
+  }
+  
+  /* ==================== 
+  Page Intro
+  ======================= */
+  /* sets intro to flex for text positioning 
+  don't recommend touching this */
+  .introduction {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .intro-content {
+    padding: 3rem 1.5rem; /* don't remove/adjust this */
+  }
+  
+  .intro-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text {
+    text-align: center;
+  }
+  
+  /* ==================== 
+         Cards 
+  !! DO NOT EDIT THE DIMENSIONS !!
+  YOU CAN EDIT THE COLORS*/
+  
+  .city-container {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: wrap;
+    column-gap: 20px;
+    
+  }
+  
+  
+  /* card dimensions */
+  .city-section-heading {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  
+  }
+  
+  /* do not edit the width or margin */
+  .city {
+    width: 30%;
+    background: rgb(199, 199, 248);
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  
+  /* location image */
+  .city-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* card title */
+  .city-title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  
+  /* inside of card */
+  .city-body {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .city-fact {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  
+  }
+  
+  
+  
+  /* houses the card
+  do not edit */
+  .card-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* do not edit */
+  .card-row {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    column-gap: 20px;
+  }
+  
+  /* card dimensions */
+  .card-section-heading {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  
+  }
+  
+  /* do not edit the width or margin */
+  .card {
+    width: 20%;
+    background: #a8e4f7;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  
+  /* location image */
+  .card-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* card title */
+  .card-title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  
+  /* inside of card */
+  .card-body {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .card-fact {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  /* card button */
+  .card-body .btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    background: red;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 10px 5px;
+    transition: 0.3s;
+  }
+  
+  
+  /* ==================== 
+  CELEBRITY Cards 
+  !! DO NOT EDIT THE DIMENSIONS !!
+  YOU CAN EDIT THE COLORS
+  ======================= */
+  /* houses the card
+  do not edit */
+  .celeb-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* do not edit */
+  .celeb-row {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    column-gap: 20px;
+  }
+  
+  /* card dimensions */
+  .celeb-section-heading {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  
+  }
+  
+  /* do not edit the width or margin */
+  .celeb {
+    width: 20%;
+    background: #83c3ff;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+  }
+  
+  /* location image */
+  .celeb-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* card title */
+  .celeb-title {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+  
+  /* inside of card */
+  .celeb-body {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  
+  }
+  
+  .celeb-fact {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* ==================== 
+  CARD MEDIA QUERIES 
+  !! DO NOT EDIT THESE !!
+  ======================= */
+  
+  @media screen and (max-width: 1000px) {
+  .card, .celeb {
+    width: 30%;
+  }
+  }
+  
+  @media screen and (max-width: 620px) {
+  .card-container, .celeb-container {
+    width: 100%;
+  }
+  
+  .card, .celeb {
+    width: 80%;
+  }
+  }
+  
