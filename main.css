@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Comic Sans MS';
 }
 
 *, *::after, *::before {
@@ -21,6 +22,12 @@ ul {
    list-style: none;
 }
 
+body {
+  background: url('https://i.ibb.co/zQ8w1Ft/de62kfx-2edf0a97-d1c0-48b8-893d-47031028591d.jpg');
+  background-size: 20%;
+  background-repeat: repeat;
+}
+
 /* ==================== 
   Header/Navbar CSS 
 ======================= */
@@ -28,7 +35,9 @@ ul {
 .header {
 	 padding-top: .5rem;
 	 padding-bottom: .5rem;
-	 background-color: red;
+	 background-image: url('https://i.ibb.co/5kVXqX0/istockphoto-1191518622-612x612.jpg');
+   background-position: middle;
+   background-repeat: repeat;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -56,8 +65,9 @@ ul {
 
 /* navbar links */
 .navbar a {
-	 color: #34495e;
+	 color: hotpink;
 	 font-size: .99rem;
+   background: black;
 }
 
 /* ==================== 
@@ -67,7 +77,7 @@ ul {
 !! don't edit this !! */
 .hero {
     height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/s31bCch/hero-image-placeholder.jpg') center center / cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0,.25)), url('https://i.ibb.co/c8ZtHZX/The-Spongebob-Squarepants-Movie-spongebob-squarepants-17069120-1360-768-1.jpg') center center / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +100,7 @@ hero p */
 /* title and subtext color - you can change the font/text styles/colors here */
 .hero-title,
 .hero-subtext {
-    color: #fff;
+    color: white;
     text-align: center; /* don't remove this */
 }
 
@@ -104,6 +114,7 @@ don't recommend touching this */
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(90deg, rgba(0,129,255,1) 0%, rgba(211,236,0,1) 45%, rgba(255,0,198,1) 100%);
 }
 
 .intro-content {
@@ -117,6 +128,7 @@ don't recommend touching this */
 .intro-title,
 .intro-text {
     text-align: center;
+    padding-top: 10px;
 }
 
 /* ==================== 
@@ -145,6 +157,7 @@ do not edit */
     background: #fff;
     border: 1px solid #ccc;
     margin-bottom: 50px;
+    border: 5px solid hotpink;
   }
 
 /* location image */
@@ -158,6 +171,7 @@ do not edit */
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: limegreen;
   }
 
 /* inside of card */
@@ -172,7 +186,7 @@ do not edit */
     display: block;
     color: #fff;
     text-align: center;
-    background: red;
+    background: hotpink;
     text-decoration: none;
     margin-top: 30px;
     padding: 10px 5px;
